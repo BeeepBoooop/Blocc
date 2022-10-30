@@ -1,5 +1,5 @@
 import pygame
-import Global
+# import Global
 from script.Level import *
 from script.Entity import *
 from script.Global import *

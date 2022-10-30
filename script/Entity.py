@@ -1,7 +1,8 @@
 import pygame.transform
 import math
 from script.GameController import *
-import Global
+# from script.Global import *
+from script import Global
 
 
 class Board(GameObject):
