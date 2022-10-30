@@ -1,5 +1,5 @@
 from script.Entity import *
-import Global
+from script import Global
 
 
 class LevelController:

@@ -3,7 +3,7 @@ import pickle
 
 import pygame.image
 
-import Global
+# import Global
 from script.Global import *
 from abc import ABC, abstractmethod
 
@@ -18,8 +18,8 @@ class PlayerData:
         self.level_reached = lvl
         self.play_sound = ps
         self.play_music = pm
-        for i in range(Global.MAX_LEVEL):
-            self.best_moves += chr(Global.ENCODE)
+        for i in range(MAX_LEVEL):
+            self.best_moves += chr(ENCODE)
 
 """
     Loading all sprites that using in high frequency

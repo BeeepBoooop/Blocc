@@ -1,7 +1,8 @@
 import pygame.mixer
 
-import GameController
-import Level
+from script import GameController
+from script import Level
+from script import Global
 from script.GameController import *
 
 
