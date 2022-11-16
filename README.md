@@ -5,8 +5,7 @@ This is one dumb block game that was inspired by [Tetris](https://en.wikipedia.o
 ## Installation
 The game is configured to work with both Python 2 and 3 with extensive support for Windows, Linux and macOS. To install the game, clone the repository and run the following command to install the dependencies:
 ```
-pip install pygame
-pip install numpy 
+pip install -r requirements.txt
 ``` 
 ## Running the actual game
 To run the game, simply run the following command:
